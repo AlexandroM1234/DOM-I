@@ -58,3 +58,19 @@ title.textContent='Dom is Awesome';
 const button = document.querySelector('button');
 
 button.textContent='Get Started';
+
+const ctaImg = document.getElementById('cta-img')
+
+ctaImg.src= 'img/header-img.png';
+
+const subTitles = document.querySelectorAll('h4')
+
+subTitles[0].textContent='Features';
+subTitles[1].textContent='About';
+subTitles[2].textContent='Services';
+subTitles[3].textContent='Product';
+subTitles[4].textContent='Vision';
+
+const stretchImg = document.getElementById('middle-img')
+
+stretchImg.src='img/mid-page-accent.jpg'
