@@ -41,6 +41,11 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
+let navBackground= document.querySelector('nav');
+
+console.log(navBackground);
+
+navBackground.style.backgroundColor = 'green';
 
 let navItems = document.querySelectorAll('a')
 
