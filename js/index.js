@@ -90,3 +90,10 @@ pageText[3].textContent='Product content elementum magna eros, ac posuere elvit 
 
 
 pageText[4].textContent='Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+subTitles[5].textContent='About';
+
+pageText[5].textContent='123 Way 456 Street Somewhere USA';
+pageText[6].textContent='1(888)888-888';
+pageText[7].textContent='sales@greatidea.io';
+pageText[8].textContent="Copyright Great Idea! 2020";
