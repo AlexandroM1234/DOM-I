@@ -41,11 +41,9 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-let navBackground= document.querySelector('nav');
+let navMain= document.querySelector('nav');
 
-console.log(navBackground);
-
-navBackground.style.backgroundColor = 'green';
+navMain.style.backgroundColor = 'green';
 
 let navItems = document.querySelectorAll('a')
 
@@ -55,6 +53,14 @@ navItems[2].textContent='Vision'
 navItems[3].textContent='Features'
 navItems[4].textContent='About'
 navItems[5].textContent='Contact'
+
+const newAnchor= document.createElement('a');
+newAnchor.textContent='Meet the Team';
+navMain.append(newAnchor)
+
+const nuevoAnchor= document.createElement('a');
+nuevoAnchor.textContent='Random Link';
+navMain.append(nuevoAnchor);
 
 let title = document.querySelector('h1')
 
