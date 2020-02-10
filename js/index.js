@@ -50,3 +50,11 @@ navItems[2].textContent='Vision'
 navItems[3].textContent='Features'
 navItems[4].textContent='About'
 navItems[5].textContent='Contact'
+
+let title = document.querySelector('h1')
+
+title.textContent='Dom is Awesome';
+
+const button = document.querySelector('button');
+
+button.textContent='Get Started';
