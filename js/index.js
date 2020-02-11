@@ -56,11 +56,11 @@ navItems[5].textContent='Contact'
 
 const newAnchor= document.createElement('a');
 newAnchor.textContent='Meet the Team';
-navMain.append(newAnchor)
+navMain.appendChild(newAnchor)
 
 const nuevoAnchor= document.createElement('a');
 nuevoAnchor.textContent='Random Link';
-navMain.append(nuevoAnchor);
+navMain.prepend(nuevoAnchor);
 
 let title = document.querySelector('h1')
 
